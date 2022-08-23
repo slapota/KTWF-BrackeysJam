@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class GunShop : MonoBehaviour
 {
-    public Gun gun;
+    public GameObject gun;
     public int price;
     public Text text;
     public bool purchased;
@@ -29,13 +29,27 @@ public class GunShop : MonoBehaviour
             {
                 if(player.weapon != null)
                 {
-                    player.weapon.GoBack();
+                    player.GoBack();
                 }
-                player.weapon = gun;
-                gun.transform.parent = gun.cam.transform;
-                gun.transform.localPosition = HandPos;
-                gun.transform.rotation = gun.cam.transform.rotation;
-                gun.equiped = true;
+                switch (gun.name.ToLower())
+                {
+                    case "pistol":
+                        Pistol pistol = gun.GetComponent<Pistol>();
+                        pistol.enabled = true;
+                        player.weapon = gun;
+                        gun.transform.parent = pistol.cam.transform;
+                        gun.transform.localPosition = HandPos;
+                        gun.transform.rotation = pistol.cam.transform.rotation;
+                        break;
+                    case "sprayrifle":
+                        SprayRifle spray = gun.GetComponent<SprayRifle>();
+                        spray.enabled = true;
+                        player.weapon = gun;
+                        gun.transform.parent = spray.cam.transform;
+                        gun.transform.localPosition = HandPos;
+                        gun.transform.rotation = spray.cam.transform.rotation;
+                        break;
+                }
             }
             else
             {

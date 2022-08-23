@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2577041817034150505}
-  - component: {fileID: 6426958914983632488}
+  - component: {fileID: 7390283535582716452}
   m_Layer: 0
   m_Name: SprayRifle
   m_TagString: Untagged
@@ -35,7 +35,7 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &6426958914983632488
+--- !u!114 &7390283535582716452
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -44,20 +44,19 @@ MonoBehaviour:
   m_GameObject: {fileID: 2378013679575777354}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f591d4e7cb100684fbc6c6d493b8fcf3, type: 3}
+  m_Script: {fileID: 11500000, guid: 66d298932efb3b948aa133fa11ee0d1a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  frequency: 0.05
   damage: 0.5
   shop: {fileID: 0}
   startPos: {x: 0, y: 0, z: 0}
-  equiped: 0
   bullet: {fileID: -8442394487744693585, guid: 92e2707db51daef459823c274bbaebc2, type: 3}
   speed: 100
   range: 0.2
   cam: {fileID: 0}
-  shootWaitTime: 0
-  spread: 3
-  fireOffset: 2
+  spread: 4
+  barrel: {fileID: 6132517481280375494}
 --- !u!1 &4828062623373311888
 GameObject:
   m_ObjectHideFlags: 0

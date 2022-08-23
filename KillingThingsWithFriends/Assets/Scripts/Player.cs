@@ -10,7 +10,7 @@ public class Player : MonoBehaviour
     float xRotation = 0f;
     public Rigidbody rb;
     public float jumpForce;
-    public Gun weapon;
+    public GameObject weapon;
     public int money;
 
     private void Start()
@@ -50,6 +50,26 @@ public class Player : MonoBehaviour
         if (Input.GetKey(KeyCode.D))
         {
             transform.localPosition += transform.right * moveSpeed * Time.deltaTime;
+        }
+    }
+    public void GoBack()
+    {
+        switch (weapon.name.ToLower())
+        {
+            case "pistol":
+                Pistol pistol = weapon.GetComponent<Pistol>();
+                pistol.transform.parent = pistol.shop.transform;
+                pistol.transform.localPosition = pistol.startPos;
+                pistol.transform.rotation = Quaternion.Euler(Vector3.zero);
+                pistol.enabled = false;
+                break;
+            case "sprayrifle":
+                SprayRifle spray = weapon.GetComponent<SprayRifle>();
+                spray.transform.parent = spray.shop.transform;
+                spray.transform.localPosition = spray.startPos;
+                spray.transform.rotation = Quaternion.Euler(Vector3.zero);
+                spray.enabled = false;
+                break;
         }
     }
 }

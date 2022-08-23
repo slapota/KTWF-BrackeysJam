@@ -56,7 +56,8 @@ MonoBehaviour:
   cam: {fileID: 0}
   shootWaitTime: 0
   spread: 0
-  fireOffset: 2
+  fireOffset: 1
+  barrel: {fileID: 5321090557109627171}
 --- !u!1 &5321090557109627171
 GameObject:
   m_ObjectHideFlags: 0

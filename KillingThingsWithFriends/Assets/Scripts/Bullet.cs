@@ -5,15 +5,15 @@ using UnityEngine;
 public class Bullet : MonoBehaviour
 {
     public float speed;
-    public float range;
+    public float damage;
+    public CollissionManager cm;
 
     private void Update()
     {
         transform.position += transform.forward * speed * Time.deltaTime;
     }
-    public IEnumerator Range()
+    private void OnCollisionEnter(Collision collision)
     {
-        yield return new WaitForSeconds(range);
-        Destroy(gameObject);
+        cm.Bullet(collision, gameObject.GetComponent<Bullet>());
     }
 }

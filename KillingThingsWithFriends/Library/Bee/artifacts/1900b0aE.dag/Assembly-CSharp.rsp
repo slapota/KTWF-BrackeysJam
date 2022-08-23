@@ -350,9 +350,14 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
 "Assets/Scripts/Bullet.cs"
-"Assets/Scripts/Gun.cs"
+"Assets/Scripts/CollissionManager.cs"
+"Assets/Scripts/Enemy.cs"
+"Assets/Scripts/EnemySpawner.cs"
+"Assets/Scripts/GunScripts/Pistol.cs"
+"Assets/Scripts/GunScripts/SprayRifle.cs"
 "Assets/Scripts/GunShop.cs"
 "Assets/Scripts/Player.cs"
+"Assets/Scripts/StartWave.cs"
 -langversion:9.0
 
 /deterministic
