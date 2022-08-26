@@ -13,6 +13,8 @@ public class GunShop : MonoBehaviour
     public Player player;
     public float minDistance;
     public Vector3 HandPos;
+    public SoundManager sm;
+    public AudioSource source;
 
     private void Start()
     {
@@ -49,12 +51,21 @@ public class GunShop : MonoBehaviour
                         gun.transform.localPosition = HandPos;
                         gun.transform.rotation = spray.cam.transform.rotation;
                         break;
+                    case "sniperrifle":
+                        SniperRifle sniper = gun.GetComponent<SniperRifle>();
+                        sniper.enabled = true;
+                        player.weapon = gun;
+                        gun.transform.parent = Camera.main.transform;
+                        gun.transform.localPosition = HandPos;
+                        gun.transform.rotation = Camera.main.transform.rotation;
+                        break;
                 }
             }
             else
             {
                 if(player.money >= price)
                 {
+                    source.PlayOneShot(sm.buy);
                     purchased = true;
                     Destroy(text.gameObject);
                     equip.SetActive(true);
@@ -62,5 +73,13 @@ public class GunShop : MonoBehaviour
                 }
             }
         }
+    }
+    void OnMouseOver()
+    {
+        player.shoot = false;
+    }
+    private void OnMouseExit()
+    {
+        player.shoot = true;
     }
 }

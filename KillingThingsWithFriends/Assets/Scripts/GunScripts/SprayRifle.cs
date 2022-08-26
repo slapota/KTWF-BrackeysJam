@@ -16,6 +16,9 @@ public class SprayRifle : MonoBehaviour
     public float spread;
     public GameObject barrel;
     public CollissionManager cm;
+    public SoundManager sm;
+    public AudioSource source;
+    public Player player;
 
     private void Start()
     {
@@ -24,6 +27,7 @@ public class SprayRifle : MonoBehaviour
     }
     private void Update()
     {
+        if (!player.shoot) return;
         if (Input.GetMouseButton(0) && ready)
         {
             Vector3 offset = new Vector3(Random.Range(-spread, spread), Random.Range(-spread, spread), 0);
@@ -33,6 +37,7 @@ public class SprayRifle : MonoBehaviour
             instance.damage = damage;
             StartCoroutine(Ready());
             StartCoroutine(Range(instance.gameObject));
+            source.PlayOneShot(sm.shot);
         }
     }
 

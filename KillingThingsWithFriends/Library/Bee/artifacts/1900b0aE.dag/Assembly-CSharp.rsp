@@ -352,12 +352,18 @@
 "Assets/Scripts/Bullet.cs"
 "Assets/Scripts/CollissionManager.cs"
 "Assets/Scripts/Enemy.cs"
+"Assets/Scripts/EnemyBullet.cs"
 "Assets/Scripts/EnemySpawner.cs"
+"Assets/Scripts/Friend.cs"
+"Assets/Scripts/FriendShop.cs"
 "Assets/Scripts/GunScripts/Pistol.cs"
+"Assets/Scripts/GunScripts/SniperRifle.cs"
 "Assets/Scripts/GunScripts/SprayRifle.cs"
 "Assets/Scripts/GunShop.cs"
 "Assets/Scripts/Player.cs"
+"Assets/Scripts/SoundManager.cs"
 "Assets/Scripts/StartWave.cs"
+"Assets/Scripts/Tutorial.cs"
 -langversion:9.0
 
 /deterministic

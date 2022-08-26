@@ -13,6 +13,9 @@ public class Pistol : MonoBehaviour
     public GameObject cam;
     public GameObject barrel;
     public CollissionManager cm;
+    public SoundManager sm;
+    public AudioSource source;
+    public Player player;
 
     private void Start()
     {
@@ -22,6 +25,7 @@ public class Pistol : MonoBehaviour
     
     private void Update()
     {
+        if (!player.shoot) return;
         if (Input.GetMouseButtonDown(0))
         {
             Bullet instance = Instantiate(bullet, barrel.transform.position, cam.transform.rotation);
@@ -29,6 +33,7 @@ public class Pistol : MonoBehaviour
             instance.cm = cm;
             instance.damage = damage;
             StartCoroutine(Range(instance.gameObject));
+            source.PlayOneShot(sm.shot);
         }
     }
     IEnumerator Range(GameObject go)
