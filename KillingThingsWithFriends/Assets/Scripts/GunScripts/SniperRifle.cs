@@ -20,7 +20,7 @@ public class SniperRifle : MonoBehaviour
     {
         startPos = transform.localPosition;
         enabled = false;
-        StartCoroutine(Zoom());
+        StartCoroutine(Aim());
     }
     private void Update()
     {
@@ -39,8 +39,9 @@ public class SniperRifle : MonoBehaviour
             StartCoroutine(Ready());
         }
     }
-    IEnumerator Zoom()
+    IEnumerator Aim()
     {
+        yield return new WaitUntil(()=>enabled);
         yield return new WaitUntil(()=>Input.GetMouseButtonDown(1));
         gameMenu.SetActive(false);
         scope.SetActive(true);
@@ -49,7 +50,7 @@ public class SniperRifle : MonoBehaviour
         gameMenu.SetActive(true);
         scope.SetActive(false);
         Camera.main.fieldOfView = 60;
-        StartCoroutine(Zoom());
+        StartCoroutine(Aim());
     }
     IEnumerator Ready()
     {

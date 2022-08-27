@@ -19,6 +19,7 @@ public class EnemySpawner : MonoBehaviour
     float health;
     float damage;
     int money;
+    public GameObject sun;
 
     public bool Cleared()
     {
@@ -27,11 +28,16 @@ public class EnemySpawner : MonoBehaviour
 
     private void Start()
     {
+        RenderSettings.ambientLight = new Color32(121, 121, 121, 0);
+        sun.transform.rotation = Quaternion.Euler(new Vector3(-307.9f, 0, 0));
         wave = 0;
+        sun.SetActive(true);
     }
     public void Spawn()
     {
         if (wave == enemiesEachWave.Count - 2) enemiesEachWave.Add((int)(enemiesEachWave.Last() * 1.2f));
+        sun.transform.rotation = Quaternion.Euler(new Vector3(-452.23f, 0, 0));
+        RenderSettings.ambientLight = Color.black;
         StartCoroutine(Spawner());
     }
     IEnumerator Spawner()
@@ -47,6 +53,9 @@ public class EnemySpawner : MonoBehaviour
         enemiesToSpawn = enemiesEachWave[wave];
         StartCoroutine(Spawning());
         yield return new WaitUntil(Cleared);
+        sun.transform.rotation = Quaternion.Euler(new Vector3(-307.9f, 0, 0));
+        RenderSettings.ambientLight = new Color32(121, 121, 121, 0);
+        sun.SetActive(true);
         startButton.SetActive(true);
     }
     IEnumerator Spawning()

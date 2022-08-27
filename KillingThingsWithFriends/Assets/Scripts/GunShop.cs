@@ -42,6 +42,7 @@ public class GunShop : MonoBehaviour
                         gun.transform.parent = pistol.cam.transform;
                         gun.transform.localPosition = HandPos;
                         gun.transform.rotation = pistol.cam.transform.rotation;
+                        pistol.handPos = HandPos;
                         break;
                     case "sprayrifle":
                         SprayRifle spray = gun.GetComponent<SprayRifle>();

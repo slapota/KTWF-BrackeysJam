@@ -16,11 +16,14 @@ public class Pistol : MonoBehaviour
     public SoundManager sm;
     public AudioSource source;
     public Player player;
+    public Vector3 handPos;
+    Vector3 aimPos = new Vector3(0, -0.479999989f, 1.69000006f);
 
     private void Start()
     {
         startPos = transform.localPosition;
         enabled = false;
+        StartCoroutine(Aim());
     }
     
     private void Update()
@@ -40,6 +43,17 @@ public class Pistol : MonoBehaviour
     {
         yield return new WaitForSeconds(range);
         Destroy(go);
+    }
+    IEnumerator Aim()
+    {
+        yield return new WaitUntil(() => enabled);
+        yield return new WaitUntil(() => Input.GetMouseButtonDown(1));
+        transform.localPosition = aimPos;
+        Camera.main.fieldOfView = 45;
+        yield return new WaitUntil(() => Input.GetMouseButtonUp(1));
+        Camera.main.fieldOfView = 60;
+        transform.localPosition = handPos;
+        StartCoroutine(Aim());
     }
 
 }

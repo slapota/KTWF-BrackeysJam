@@ -1,0 +1,647 @@
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1661629798962034, "dur": 233428, "ph": "X", "name": "Build ScriptAssemblies", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1661629798964276, "dur": 36462, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1661629799001189, "dur": 184505, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1661629799185727, "dur": 9735, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1661629808932258, "dur": 261679, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1661629808932641, "dur": 6189, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1661629808938831, "dur": 241825, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1661629809180659, "dur": 13275, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1661629809194804, "dur": 26, "ph": "X", "name": "", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1661629809002977, "dur":2951, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1661629809005975, "dur":308, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1661629809006332, "dur":40, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1661629809006374, "dur":1572, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1661629809008209, "dur":1038, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1661629809009247, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1661629809159363, "dur":367, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1661629809159730, "dur":25, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1661629809159756, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1661629809159760, "dur":11, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1661629809159771, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1661629809159774, "dur":9, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1661629809159783, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1661629809159787, "dur":9, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1661629809159796, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1661629809159799, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1661629809159807, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1661629809159811, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1661629809159819, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1661629809159822, "dur":9, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1661629809159831, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1661629809159834, "dur":14, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1661629809159848, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1661629809159866, "dur":2, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1661629809159892, "dur":3693, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1661629809022620, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1661629809022621, "dur":18995, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1661629809041646, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1661629809041649, "dur":161, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1661629809041821, "dur":3, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/arnos/Desktop/unityProjects/ShootingThingsWithFriends/ShootingThingsWithFriends_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1661629809041824, "dur":146, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1661629809041979, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1661629809043590, "dur":6809, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/arnos/Desktop/unityProjects/ShootingThingsWithFriends/ShootingThingsWithFriends_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1661629809050402, "dur":642, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/arnos/Desktop/unityProjects/ShootingThingsWithFriends/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1661629809051044, "dur":160, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1661629809051252, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1661629809051265, "dur":4559, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/arnos/Desktop/unityProjects/ShootingThingsWithFriends/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1661629809056816, "dur":1360, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/arnos/Desktop/unityProjects/ShootingThingsWithFriends/ShootingThingsWithFriends_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":1, "ts":1661629809058177, "dur":154, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1661629809058371, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1661629809059735, "dur":18517, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/arnos/Desktop/unityProjects/ShootingThingsWithFriends/ShootingThingsWithFriends_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":1, "ts":1661629809078567, "dur":156, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/arnos/Desktop/unityProjects/ShootingThingsWithFriends/ShootingThingsWithFriends_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1661629809078723, "dur":348, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1661629809079110, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1661629809079129, "dur":6392, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/arnos/Desktop/unityProjects/ShootingThingsWithFriends/ShootingThingsWithFriends_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1661629809085657, "dur":1140, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/arnos/Desktop/unityProjects/ShootingThingsWithFriends/ShootingThingsWithFriends_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":1, "ts":1661629809086797, "dur":142, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1661629809086953, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1661629809086968, "dur":3461, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/arnos/Desktop/unityProjects/ShootingThingsWithFriends/ShootingThingsWithFriends_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":1, "ts":1661629809090597, "dur":170, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/arnos/Desktop/unityProjects/ShootingThingsWithFriends/ShootingThingsWithFriends_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1661629809090767, "dur":152, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1661629809090938, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1661629809091067, "dur":6335, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/arnos/Desktop/unityProjects/ShootingThingsWithFriends/ShootingThingsWithFriends_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1661629809097814, "dur":181, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/arnos/Desktop/unityProjects/ShootingThingsWithFriends/ShootingThingsWithFriends_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1661629809097995, "dur":487, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1661629809099309, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1661629809099334, "dur":3493, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/arnos/Desktop/unityProjects/ShootingThingsWithFriends/ShootingThingsWithFriends_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1661629809102969, "dur":580, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/arnos/Desktop/unityProjects/ShootingThingsWithFriends/ShootingThingsWithFriends_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1661629809103550, "dur":146, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1661629809103740, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1661629809103774, "dur":3416, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/arnos/Desktop/unityProjects/ShootingThingsWithFriends/ShootingThingsWithFriends_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1661629809107337, "dur":148, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/arnos/Desktop/unityProjects/ShootingThingsWithFriends/ShootingThingsWithFriends_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1661629809107486, "dur":130, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1661629809107626, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1661629809107637, "dur":4348, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/arnos/Desktop/unityProjects/ShootingThingsWithFriends/ShootingThingsWithFriends_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1661629809112140, "dur":161, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/arnos/Desktop/unityProjects/ShootingThingsWithFriends/ShootingThingsWithFriends_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1661629809112301, "dur":368, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1661629809112680, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1661629809112692, "dur":3639, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/arnos/Desktop/unityProjects/ShootingThingsWithFriends/ShootingThingsWithFriends_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1661629809116473, "dur":156, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/arnos/Desktop/unityProjects/ShootingThingsWithFriends/ShootingThingsWithFriends_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1661629809116629, "dur":140, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1661629809116779, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1661629809116792, "dur":3194, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/arnos/Desktop/unityProjects/ShootingThingsWithFriends/ShootingThingsWithFriends_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1661629809120137, "dur":1371, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/arnos/Desktop/unityProjects/ShootingThingsWithFriends/ShootingThingsWithFriends_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":1, "ts":1661629809121508, "dur":173, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1661629809121720, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1661629809121736, "dur":3904, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/arnos/Desktop/unityProjects/ShootingThingsWithFriends/ShootingThingsWithFriends_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":1, "ts":1661629809125801, "dur":558, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/arnos/Desktop/unityProjects/ShootingThingsWithFriends/ShootingThingsWithFriends_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":1, "ts":1661629809126359, "dur":227, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1661629809126638, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1661629809126676, "dur":4126, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/arnos/Desktop/unityProjects/ShootingThingsWithFriends/ShootingThingsWithFriends_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":1, "ts":1661629809130965, "dur":786, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/arnos/Desktop/unityProjects/ShootingThingsWithFriends/ShootingThingsWithFriends_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":1, "ts":1661629809131751, "dur":712, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1661629809132502, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1661629809132538, "dur":5544, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/arnos/Desktop/unityProjects/ShootingThingsWithFriends/ShootingThingsWithFriends_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":1, "ts":1661629809138221, "dur":141, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/arnos/Desktop/unityProjects/ShootingThingsWithFriends/ShootingThingsWithFriends_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":1, "ts":1661629809138362, "dur":125, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1661629809138496, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1661629809138507, "dur":5962, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/arnos/Desktop/unityProjects/ShootingThingsWithFriends/ShootingThingsWithFriends_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":1, "ts":1661629809144604, "dur":671, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/arnos/Desktop/unityProjects/ShootingThingsWithFriends/ShootingThingsWithFriends_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":1, "ts":1661629809145275, "dur":368, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1661629809145681, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1661629809145717, "dur":3227, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/arnos/Desktop/unityProjects/ShootingThingsWithFriends/ShootingThingsWithFriends_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":1, "ts":1661629809149091, "dur":471, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/arnos/Desktop/unityProjects/ShootingThingsWithFriends/ShootingThingsWithFriends_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":1, "ts":1661629809149563, "dur":132, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1661629809149734, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1661629809149767, "dur":2577, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/arnos/Desktop/unityProjects/ShootingThingsWithFriends/ShootingThingsWithFriends_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":1, "ts":1661629809152488, "dur":145, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/arnos/Desktop/unityProjects/ShootingThingsWithFriends/ShootingThingsWithFriends_Data/resources.assets" }}
+,{ "pid":12345, "tid":1, "ts":1661629809152658, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1661629809152671, "dur":5248, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/arnos/Desktop/unityProjects/ShootingThingsWithFriends/ShootingThingsWithFriends_Data/resources.assets" }}
+,{ "pid":12345, "tid":1, "ts":1661629809158104, "dur":1277, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1661629809022737, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1661629809022738, "dur":18893, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1661629809041646, "dur":212, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/arnos/Desktop/unityProjects/ShootingThingsWithFriends/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1661629809041859, "dur":267, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1661629809042137, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1661629809046838, "dur":3915, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/arnos/Desktop/unityProjects/ShootingThingsWithFriends/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1661629809050893, "dur":149, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/arnos/Desktop/unityProjects/ShootingThingsWithFriends/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1661629809051042, "dur":147, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1661629809051209, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1661629809052413, "dur":2917, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/arnos/Desktop/unityProjects/ShootingThingsWithFriends/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1661629809055498, "dur":907, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/arnos/Desktop/unityProjects/ShootingThingsWithFriends/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":2, "ts":1661629809056405, "dur":2796, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1661629809059240, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1661629809062160, "dur":4439, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/arnos/Desktop/unityProjects/ShootingThingsWithFriends/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":2, "ts":1661629809066782, "dur":192, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/arnos/Desktop/unityProjects/ShootingThingsWithFriends/ShootingThingsWithFriends_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1661629809066974, "dur":141, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1661629809067155, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1661629809067191, "dur":4681, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/arnos/Desktop/unityProjects/ShootingThingsWithFriends/ShootingThingsWithFriends_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1661629809072020, "dur":136, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/arnos/Desktop/unityProjects/ShootingThingsWithFriends/ShootingThingsWithFriends_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1661629809072156, "dur":128, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1661629809072406, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1661629809072428, "dur":4242, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/arnos/Desktop/unityProjects/ShootingThingsWithFriends/ShootingThingsWithFriends_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1661629809076845, "dur":165, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/arnos/Desktop/unityProjects/ShootingThingsWithFriends/ShootingThingsWithFriends_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1661629809077011, "dur":151, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1661629809077174, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1661629809077188, "dur":3300, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/arnos/Desktop/unityProjects/ShootingThingsWithFriends/ShootingThingsWithFriends_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1661629809080649, "dur":157, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/arnos/Desktop/unityProjects/ShootingThingsWithFriends/ShootingThingsWithFriends_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1661629809080806, "dur":142, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1661629809081085, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1661629809081102, "dur":3167, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/arnos/Desktop/unityProjects/ShootingThingsWithFriends/ShootingThingsWithFriends_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1661629809084421, "dur":164, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/arnos/Desktop/unityProjects/ShootingThingsWithFriends/ShootingThingsWithFriends_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1661629809084585, "dur":215, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1661629809084814, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1661629809084843, "dur":5439, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/arnos/Desktop/unityProjects/ShootingThingsWithFriends/ShootingThingsWithFriends_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1661629809090437, "dur":151, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/arnos/Desktop/unityProjects/ShootingThingsWithFriends/ShootingThingsWithFriends_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1661629809090589, "dur":129, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1661629809090729, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1661629809090744, "dur":3054, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/arnos/Desktop/unityProjects/ShootingThingsWithFriends/ShootingThingsWithFriends_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1661629809093943, "dur":144, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/arnos/Desktop/unityProjects/ShootingThingsWithFriends/ShootingThingsWithFriends_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1661629809094087, "dur":128, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1661629809094227, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1661629809094238, "dur":3638, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/arnos/Desktop/unityProjects/ShootingThingsWithFriends/ShootingThingsWithFriends_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1661629809098077, "dur":120, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/arnos/Desktop/unityProjects/ShootingThingsWithFriends/ShootingThingsWithFriends_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1661629809098197, "dur":557, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1661629809098787, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1661629809098799, "dur":4095, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/arnos/Desktop/unityProjects/ShootingThingsWithFriends/ShootingThingsWithFriends_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1661629809103045, "dur":505, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/arnos/Desktop/unityProjects/ShootingThingsWithFriends/ShootingThingsWithFriends_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1661629809103551, "dur":138, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1661629809103729, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1661629809103764, "dur":3814, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/arnos/Desktop/unityProjects/ShootingThingsWithFriends/ShootingThingsWithFriends_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1661629809107726, "dur":286, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/arnos/Desktop/unityProjects/ShootingThingsWithFriends/ShootingThingsWithFriends_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":2, "ts":1661629809108012, "dur":134, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1661629809108160, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1661629809108171, "dur":4002, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/arnos/Desktop/unityProjects/ShootingThingsWithFriends/ShootingThingsWithFriends_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":2, "ts":1661629809112319, "dur":156, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/arnos/Desktop/unityProjects/ShootingThingsWithFriends/ShootingThingsWithFriends_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1661629809112476, "dur":208, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1661629809112894, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1661629809112930, "dur":3164, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/arnos/Desktop/unityProjects/ShootingThingsWithFriends/ShootingThingsWithFriends_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1661629809116244, "dur":457, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/arnos/Desktop/unityProjects/ShootingThingsWithFriends/ShootingThingsWithFriends_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1661629809116701, "dur":341, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1661629809117052, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1661629809117063, "dur":5046, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/arnos/Desktop/unityProjects/ShootingThingsWithFriends/ShootingThingsWithFriends_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1661629809122259, "dur":487, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/arnos/Desktop/unityProjects/ShootingThingsWithFriends/ShootingThingsWithFriends_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":2, "ts":1661629809122747, "dur":502, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1661629809123274, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1661629809123292, "dur":3155, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/arnos/Desktop/unityProjects/ShootingThingsWithFriends/ShootingThingsWithFriends_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":2, "ts":1661629809126553, "dur":524, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/arnos/Desktop/unityProjects/ShootingThingsWithFriends/ShootingThingsWithFriends_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1661629809127077, "dur":568, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1661629809127684, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1661629809127720, "dur":3143, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/arnos/Desktop/unityProjects/ShootingThingsWithFriends/ShootingThingsWithFriends_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1661629809131015, "dur":155, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/arnos/Desktop/unityProjects/ShootingThingsWithFriends/ShootingThingsWithFriends_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":2, "ts":1661629809131171, "dur":128, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1661629809131340, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1661629809131376, "dur":4465, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/arnos/Desktop/unityProjects/ShootingThingsWithFriends/ShootingThingsWithFriends_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":2, "ts":1661629809136001, "dur":187, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/arnos/Desktop/unityProjects/ShootingThingsWithFriends/ShootingThingsWithFriends_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":2, "ts":1661629809136188, "dur":138, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1661629809136355, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1661629809136392, "dur":4706, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/arnos/Desktop/unityProjects/ShootingThingsWithFriends/ShootingThingsWithFriends_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":2, "ts":1661629809141251, "dur":158, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/arnos/Desktop/unityProjects/ShootingThingsWithFriends/ShootingThingsWithFriends_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":2, "ts":1661629809141410, "dur":275, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1661629809141704, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1661629809141717, "dur":4123, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/arnos/Desktop/unityProjects/ShootingThingsWithFriends/ShootingThingsWithFriends_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":2, "ts":1661629809145994, "dur":152, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/arnos/Desktop/unityProjects/ShootingThingsWithFriends/ShootingThingsWithFriends_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":2, "ts":1661629809146172, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1661629809146371, "dur":8164, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/arnos/Desktop/unityProjects/ShootingThingsWithFriends/ShootingThingsWithFriends_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":2, "ts":1661629809154697, "dur":164, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/arnos/Desktop/unityProjects/ShootingThingsWithFriends/ShootingThingsWithFriends_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":2, "ts":1661629809154897, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1661629809154922, "dur":3904, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/arnos/Desktop/unityProjects/ShootingThingsWithFriends/ShootingThingsWithFriends_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":2, "ts":1661629809158959, "dur":423, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1661629809022805, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1661629809022805, "dur":18822, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1661629809041646, "dur":243, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/arnos/Desktop/unityProjects/ShootingThingsWithFriends/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":3, "ts":1661629809041889, "dur":181, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1661629809042111, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1661629809045537, "dur":5081, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/arnos/Desktop/unityProjects/ShootingThingsWithFriends/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":3, "ts":1661629809050777, "dur":178, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/arnos/Desktop/unityProjects/ShootingThingsWithFriends/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1661629809050956, "dur":159, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1661629809051124, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1661629809051136, "dur":2672, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/arnos/Desktop/unityProjects/ShootingThingsWithFriends/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1661629809054018, "dur":212, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/arnos/Desktop/unityProjects/ShootingThingsWithFriends/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":3, "ts":1661629809054231, "dur":205, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1661629809054545, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1661629809054559, "dur":10353, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/arnos/Desktop/unityProjects/ShootingThingsWithFriends/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":3, "ts":1661629809065719, "dur":2159, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/arnos/Desktop/unityProjects/ShootingThingsWithFriends/ShootingThingsWithFriends_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1661629809067879, "dur":3227, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1661629809071124, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1661629809071142, "dur":6014, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/arnos/Desktop/unityProjects/ShootingThingsWithFriends/ShootingThingsWithFriends_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1661629809077301, "dur":147, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/arnos/Desktop/unityProjects/ShootingThingsWithFriends/ShootingThingsWithFriends_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1661629809077449, "dur":128, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1661629809077710, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1661629809077724, "dur":3590, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/arnos/Desktop/unityProjects/ShootingThingsWithFriends/ShootingThingsWithFriends_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1661629809081469, "dur":154, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/arnos/Desktop/unityProjects/ShootingThingsWithFriends/ShootingThingsWithFriends_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1661629809081624, "dur":481, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1661629809082117, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1661629809082131, "dur":3379, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/arnos/Desktop/unityProjects/ShootingThingsWithFriends/ShootingThingsWithFriends_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1661629809085666, "dur":195, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/arnos/Desktop/unityProjects/ShootingThingsWithFriends/ShootingThingsWithFriends_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1661629809085896, "dur":1129, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1661629809087147, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1661629809087379, "dur":4735, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/arnos/Desktop/unityProjects/ShootingThingsWithFriends/ShootingThingsWithFriends_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1661629809093091, "dur":369, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/arnos/Desktop/unityProjects/ShootingThingsWithFriends/ShootingThingsWithFriends_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1661629809093460, "dur":467, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1661629809094065, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1661629809094084, "dur":3511, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/arnos/Desktop/unityProjects/ShootingThingsWithFriends/ShootingThingsWithFriends_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1661629809097740, "dur":156, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/arnos/Desktop/unityProjects/ShootingThingsWithFriends/ShootingThingsWithFriends_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1661629809097896, "dur":332, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1661629809098248, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1661629809098260, "dur":3212, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/arnos/Desktop/unityProjects/ShootingThingsWithFriends/ShootingThingsWithFriends_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1661629809101625, "dur":162, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/arnos/Desktop/unityProjects/ShootingThingsWithFriends/ShootingThingsWithFriends_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1661629809101788, "dur":346, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1661629809102388, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1661629809102413, "dur":4520, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/arnos/Desktop/unityProjects/ShootingThingsWithFriends/ShootingThingsWithFriends_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1661629809107076, "dur":159, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/arnos/Desktop/unityProjects/ShootingThingsWithFriends/ShootingThingsWithFriends_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1661629809107235, "dur":130, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1661629809107375, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1661629809107603, "dur":5373, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/arnos/Desktop/unityProjects/ShootingThingsWithFriends/ShootingThingsWithFriends_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1661629809113127, "dur":152, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/arnos/Desktop/unityProjects/ShootingThingsWithFriends/ShootingThingsWithFriends_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1661629809113280, "dur":323, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1661629809113630, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1661629809113641, "dur":3655, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/arnos/Desktop/unityProjects/ShootingThingsWithFriends/ShootingThingsWithFriends_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1661629809117449, "dur":613, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/arnos/Desktop/unityProjects/ShootingThingsWithFriends/ShootingThingsWithFriends_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":3, "ts":1661629809118063, "dur":145, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1661629809118286, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1661629809118324, "dur":2481, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/arnos/Desktop/unityProjects/ShootingThingsWithFriends/ShootingThingsWithFriends_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":3, "ts":1661629809120952, "dur":525, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/arnos/Desktop/unityProjects/ShootingThingsWithFriends/ShootingThingsWithFriends_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":3, "ts":1661629809121478, "dur":208, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1661629809121710, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1661629809122145, "dur":5023, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/arnos/Desktop/unityProjects/ShootingThingsWithFriends/ShootingThingsWithFriends_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":3, "ts":1661629809127439, "dur":459, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/arnos/Desktop/unityProjects/ShootingThingsWithFriends/ShootingThingsWithFriends_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":3, "ts":1661629809127898, "dur":135, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1661629809128074, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1661629809128095, "dur":3673, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/arnos/Desktop/unityProjects/ShootingThingsWithFriends/ShootingThingsWithFriends_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":3, "ts":1661629809131922, "dur":163, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/arnos/Desktop/unityProjects/ShootingThingsWithFriends/ShootingThingsWithFriends_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":3, "ts":1661629809132086, "dur":145, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1661629809132249, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1661629809132266, "dur":5238, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/arnos/Desktop/unityProjects/ShootingThingsWithFriends/ShootingThingsWithFriends_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":3, "ts":1661629809137669, "dur":150, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/arnos/Desktop/unityProjects/ShootingThingsWithFriends/ShootingThingsWithFriends_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":3, "ts":1661629809137820, "dur":131, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1661629809137962, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1661629809138012, "dur":4422, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/arnos/Desktop/unityProjects/ShootingThingsWithFriends/ShootingThingsWithFriends_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":3, "ts":1661629809142586, "dur":158, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/arnos/Desktop/unityProjects/ShootingThingsWithFriends/ShootingThingsWithFriends_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":3, "ts":1661629809142745, "dur":248, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1661629809143004, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1661629809143020, "dur":3667, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/arnos/Desktop/unityProjects/ShootingThingsWithFriends/ShootingThingsWithFriends_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":3, "ts":1661629809147420, "dur":138, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/arnos/Desktop/unityProjects/ShootingThingsWithFriends/ShootingThingsWithFriends_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":3, "ts":1661629809147569, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1661629809147581, "dur":2930, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/arnos/Desktop/unityProjects/ShootingThingsWithFriends/ShootingThingsWithFriends_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":3, "ts":1661629809150677, "dur":517, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/arnos/Desktop/unityProjects/ShootingThingsWithFriends/ShootingThingsWithFriends_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":3, "ts":1661629809151195, "dur":138, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1661629809151374, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1661629809151503, "dur":2552, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/arnos/Desktop/unityProjects/ShootingThingsWithFriends/ShootingThingsWithFriends_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":3, "ts":1661629809154202, "dur":149, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/arnos/Desktop/unityProjects/ShootingThingsWithFriends/ShootingThingsWithFriends_Data/level0" }}
+,{ "pid":12345, "tid":3, "ts":1661629809154361, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1661629809154373, "dur":3456, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/arnos/Desktop/unityProjects/ShootingThingsWithFriends/ShootingThingsWithFriends_Data/level0" }}
+,{ "pid":12345, "tid":3, "ts":1661629809157963, "dur":1394, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1661629809022893, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1661629809022894, "dur":18736, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1661629809041647, "dur":211, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/arnos/Desktop/unityProjects/ShootingThingsWithFriends/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1661629809041858, "dur":176, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1661629809042123, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1661629809045970, "dur":4348, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/arnos/Desktop/unityProjects/ShootingThingsWithFriends/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1661629809050482, "dur":172, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/arnos/Desktop/unityProjects/ShootingThingsWithFriends/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1661629809050654, "dur":124, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1661629809050797, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1661629809051121, "dur":2316, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/arnos/Desktop/unityProjects/ShootingThingsWithFriends/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1661629809053596, "dur":180, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/arnos/Desktop/unityProjects/ShootingThingsWithFriends/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1661629809053777, "dur":186, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1661629809054003, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1661629809054034, "dur":2602, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/arnos/Desktop/unityProjects/ShootingThingsWithFriends/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1661629809056789, "dur":33171, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/arnos/Desktop/unityProjects/ShootingThingsWithFriends/ShootingThingsWithFriends.exe" }}
+,{ "pid":12345, "tid":4, "ts":1661629809089960, "dur":977, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1661629809091290, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1661629809091409, "dur":3628, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/arnos/Desktop/unityProjects/ShootingThingsWithFriends/ShootingThingsWithFriends.exe" }}
+,{ "pid":12345, "tid":4, "ts":1661629809095157, "dur":147, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/arnos/Desktop/unityProjects/ShootingThingsWithFriends/ShootingThingsWithFriends_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1661629809095304, "dur":135, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1661629809095462, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1661629809095475, "dur":3786, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/arnos/Desktop/unityProjects/ShootingThingsWithFriends/ShootingThingsWithFriends_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1661629809099425, "dur":152, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/arnos/Desktop/unityProjects/ShootingThingsWithFriends/ShootingThingsWithFriends_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1661629809099578, "dur":129, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1661629809099734, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1661629809099759, "dur":6056, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/arnos/Desktop/unityProjects/ShootingThingsWithFriends/ShootingThingsWithFriends_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1661629809105969, "dur":163, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/arnos/Desktop/unityProjects/ShootingThingsWithFriends/ShootingThingsWithFriends_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1661629809106132, "dur":137, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1661629809106310, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1661629809106337, "dur":3207, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/arnos/Desktop/unityProjects/ShootingThingsWithFriends/ShootingThingsWithFriends_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1661629809109690, "dur":144, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/arnos/Desktop/unityProjects/ShootingThingsWithFriends/ShootingThingsWithFriends_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1661629809109834, "dur":129, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1661629809109974, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1661629809110103, "dur":3393, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/arnos/Desktop/unityProjects/ShootingThingsWithFriends/ShootingThingsWithFriends_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1661629809113658, "dur":151, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/arnos/Desktop/unityProjects/ShootingThingsWithFriends/ShootingThingsWithFriends_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1661629809113810, "dur":215, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1661629809114036, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1661629809114048, "dur":3188, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/arnos/Desktop/unityProjects/ShootingThingsWithFriends/ShootingThingsWithFriends_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1661629809117379, "dur":159, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/arnos/Desktop/unityProjects/ShootingThingsWithFriends/ShootingThingsWithFriends_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1661629809117538, "dur":149, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1661629809117698, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1661629809117710, "dur":2902, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/arnos/Desktop/unityProjects/ShootingThingsWithFriends/ShootingThingsWithFriends_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1661629809120757, "dur":453, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/arnos/Desktop/unityProjects/ShootingThingsWithFriends/ShootingThingsWithFriends_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":4, "ts":1661629809121210, "dur":141, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1661629809121361, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1661629809121373, "dur":3348, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/arnos/Desktop/unityProjects/ShootingThingsWithFriends/ShootingThingsWithFriends_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":4, "ts":1661629809124856, "dur":537, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/arnos/Desktop/unityProjects/ShootingThingsWithFriends/ShootingThingsWithFriends_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":4, "ts":1661629809125394, "dur":137, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1661629809125542, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1661629809125554, "dur":5600, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/arnos/Desktop/unityProjects/ShootingThingsWithFriends/ShootingThingsWithFriends_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":4, "ts":1661629809131515, "dur":716, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/arnos/Desktop/unityProjects/ShootingThingsWithFriends/ShootingThingsWithFriends_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":4, "ts":1661629809132231, "dur":279, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1661629809132520, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1661629809132532, "dur":8621, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/arnos/Desktop/unityProjects/ShootingThingsWithFriends/ShootingThingsWithFriends_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":4, "ts":1661629809141297, "dur":157, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/arnos/Desktop/unityProjects/ShootingThingsWithFriends/ShootingThingsWithFriends_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":4, "ts":1661629809141454, "dur":533, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1661629809141997, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1661629809142009, "dur":4488, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/arnos/Desktop/unityProjects/ShootingThingsWithFriends/ShootingThingsWithFriends_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":4, "ts":1661629809147685, "dur":175, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/arnos/Desktop/unityProjects/ShootingThingsWithFriends/ShootingThingsWithFriends_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":4, "ts":1661629809147895, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1661629809147926, "dur":10000, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/arnos/Desktop/unityProjects/ShootingThingsWithFriends/ShootingThingsWithFriends_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":4, "ts":1661629809158065, "dur":1296, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1661629809022963, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1661629809022963, "dur":18700, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1661629809041663, "dur":160, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/arnos/Desktop/unityProjects/ShootingThingsWithFriends/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":5, "ts":1661629809041824, "dur":177, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1661629809042113, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1661629809045934, "dur":4472, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/arnos/Desktop/unityProjects/ShootingThingsWithFriends/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":5, "ts":1661629809050560, "dur":172, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/arnos/Desktop/unityProjects/ShootingThingsWithFriends/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1661629809050732, "dur":128, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1661629809050895, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1661629809051141, "dur":3070, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/arnos/Desktop/unityProjects/ShootingThingsWithFriends/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1661629809054358, "dur":202, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/arnos/Desktop/unityProjects/ShootingThingsWithFriends/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":5, "ts":1661629809054560, "dur":311, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1661629809054905, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1661629809054994, "dur":3109, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/arnos/Desktop/unityProjects/ShootingThingsWithFriends/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":5, "ts":1661629809058254, "dur":155, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/arnos/Desktop/unityProjects/ShootingThingsWithFriends/ShootingThingsWithFriends_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1661629809058410, "dur":117, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1661629809058537, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1661629809059691, "dur":3028, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/arnos/Desktop/unityProjects/ShootingThingsWithFriends/ShootingThingsWithFriends_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1661629809062866, "dur":139, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/arnos/Desktop/unityProjects/ShootingThingsWithFriends/ShootingThingsWithFriends_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1661629809063006, "dur":124, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1661629809063143, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1661629809063339, "dur":2974, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/arnos/Desktop/unityProjects/ShootingThingsWithFriends/ShootingThingsWithFriends_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1661629809066461, "dur":149, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/arnos/Desktop/unityProjects/ShootingThingsWithFriends/ShootingThingsWithFriends_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1661629809066611, "dur":122, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1661629809066747, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1661629809066766, "dur":4947, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/arnos/Desktop/unityProjects/ShootingThingsWithFriends/ShootingThingsWithFriends_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1661629809071858, "dur":156, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/arnos/Desktop/unityProjects/ShootingThingsWithFriends/ShootingThingsWithFriends_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1661629809072014, "dur":286, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1661629809072502, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1661629809072540, "dur":5577, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/arnos/Desktop/unityProjects/ShootingThingsWithFriends/ShootingThingsWithFriends_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1661629809078279, "dur":175, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/arnos/Desktop/unityProjects/ShootingThingsWithFriends/ShootingThingsWithFriends_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1661629809078455, "dur":620, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1661629809079119, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1661629809079136, "dur":3906, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/arnos/Desktop/unityProjects/ShootingThingsWithFriends/ShootingThingsWithFriends_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1661629809083186, "dur":157, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/arnos/Desktop/unityProjects/ShootingThingsWithFriends/ShootingThingsWithFriends_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1661629809083344, "dur":123, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1661629809083617, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1661629809083654, "dur":3493, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/arnos/Desktop/unityProjects/ShootingThingsWithFriends/ShootingThingsWithFriends_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1661629809087318, "dur":179, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/arnos/Desktop/unityProjects/ShootingThingsWithFriends/ShootingThingsWithFriends_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1661629809087498, "dur":294, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1661629809087803, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1661629809087818, "dur":3704, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/arnos/Desktop/unityProjects/ShootingThingsWithFriends/ShootingThingsWithFriends_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1661629809091678, "dur":216, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/arnos/Desktop/unityProjects/ShootingThingsWithFriends/ShootingThingsWithFriends_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1661629809091894, "dur":136, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1661629809092071, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1661629809092107, "dur":2864, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/arnos/Desktop/unityProjects/ShootingThingsWithFriends/ShootingThingsWithFriends_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1661629809095115, "dur":173, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/arnos/Desktop/unityProjects/ShootingThingsWithFriends/ShootingThingsWithFriends_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1661629809095289, "dur":143, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1661629809095461, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1661629809095474, "dur":3167, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/arnos/Desktop/unityProjects/ShootingThingsWithFriends/ShootingThingsWithFriends_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1661629809098783, "dur":167, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/arnos/Desktop/unityProjects/ShootingThingsWithFriends/ShootingThingsWithFriends_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1661629809098951, "dur":141, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1661629809099305, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1661629809099318, "dur":3251, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/arnos/Desktop/unityProjects/ShootingThingsWithFriends/ShootingThingsWithFriends_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1661629809102737, "dur":152, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/arnos/Desktop/unityProjects/ShootingThingsWithFriends/ShootingThingsWithFriends_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1661629809102890, "dur":240, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1661629809103145, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1661629809103554, "dur":3645, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/arnos/Desktop/unityProjects/ShootingThingsWithFriends/ShootingThingsWithFriends_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1661629809107348, "dur":147, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/arnos/Desktop/unityProjects/ShootingThingsWithFriends/ShootingThingsWithFriends_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1661629809107495, "dur":130, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1661629809107635, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1661629809107650, "dur":3781, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/arnos/Desktop/unityProjects/ShootingThingsWithFriends/ShootingThingsWithFriends_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1661629809111575, "dur":142, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/arnos/Desktop/unityProjects/ShootingThingsWithFriends/ShootingThingsWithFriends_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1661629809111718, "dur":130, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1661629809111858, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1661629809111871, "dur":7803, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/arnos/Desktop/unityProjects/ShootingThingsWithFriends/ShootingThingsWithFriends_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1661629809119820, "dur":749, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/arnos/Desktop/unityProjects/ShootingThingsWithFriends/ShootingThingsWithFriends_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":5, "ts":1661629809120569, "dur":132, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1661629809120739, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1661629809120866, "dur":2829, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/arnos/Desktop/unityProjects/ShootingThingsWithFriends/ShootingThingsWithFriends_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":5, "ts":1661629809123838, "dur":429, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/arnos/Desktop/unityProjects/ShootingThingsWithFriends/ShootingThingsWithFriends_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":5, "ts":1661629809124267, "dur":390, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1661629809124698, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1661629809124712, "dur":3664, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/arnos/Desktop/unityProjects/ShootingThingsWithFriends/ShootingThingsWithFriends_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":5, "ts":1661629809128518, "dur":145, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/arnos/Desktop/unityProjects/ShootingThingsWithFriends/ShootingThingsWithFriends_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":5, "ts":1661629809128664, "dur":343, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1661629809129015, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1661629809129023, "dur":4244, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/arnos/Desktop/unityProjects/ShootingThingsWithFriends/ShootingThingsWithFriends_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":5, "ts":1661629809133415, "dur":142, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/arnos/Desktop/unityProjects/ShootingThingsWithFriends/ShootingThingsWithFriends_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":5, "ts":1661629809133558, "dur":143, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1661629809133726, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1661629809133752, "dur":3782, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/arnos/Desktop/unityProjects/ShootingThingsWithFriends/ShootingThingsWithFriends_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":5, "ts":1661629809137693, "dur":150, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/arnos/Desktop/unityProjects/ShootingThingsWithFriends/ShootingThingsWithFriends_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":5, "ts":1661629809137844, "dur":131, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1661629809138006, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1661629809138027, "dur":16880, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/arnos/Desktop/unityProjects/ShootingThingsWithFriends/ShootingThingsWithFriends_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":5, "ts":1661629809155112, "dur":167, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/arnos/Desktop/unityProjects/ShootingThingsWithFriends/ShootingThingsWithFriends_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":5, "ts":1661629809155406, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1661629809155438, "dur":3407, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/arnos/Desktop/unityProjects/ShootingThingsWithFriends/ShootingThingsWithFriends_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":5, "ts":1661629809158955, "dur":403, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1661629809023034, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1661629809023035, "dur":18620, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1661629809041660, "dur":201, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/arnos/Desktop/unityProjects/ShootingThingsWithFriends/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":6, "ts":1661629809041861, "dur":226, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1661629809042131, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1661629809046016, "dur":5104, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/arnos/Desktop/unityProjects/ShootingThingsWithFriends/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":6, "ts":1661629809051537, "dur":208, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/arnos/Desktop/unityProjects/ShootingThingsWithFriends/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":6, "ts":1661629809051745, "dur":140, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1661629809051920, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1661629809052321, "dur":4082, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/arnos/Desktop/unityProjects/ShootingThingsWithFriends/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":6, "ts":1661629809056561, "dur":180, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/arnos/Desktop/unityProjects/ShootingThingsWithFriends/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":6, "ts":1661629809056742, "dur":329, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1661629809057118, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1661629809057128, "dur":5518, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/arnos/Desktop/unityProjects/ShootingThingsWithFriends/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":6, "ts":1661629809062812, "dur":327, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/arnos/Desktop/unityProjects/ShootingThingsWithFriends/ShootingThingsWithFriends_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1661629809063140, "dur":117, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1661629809063269, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1661629809067073, "dur":6484, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/arnos/Desktop/unityProjects/ShootingThingsWithFriends/ShootingThingsWithFriends_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1661629809073665, "dur":115, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/arnos/Desktop/unityProjects/ShootingThingsWithFriends/ShootingThingsWithFriends_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1661629809073780, "dur":605, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1661629809074430, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1661629809074469, "dur":3714, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/arnos/Desktop/unityProjects/ShootingThingsWithFriends/ShootingThingsWithFriends_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1661629809078367, "dur":177, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/arnos/Desktop/unityProjects/ShootingThingsWithFriends/ShootingThingsWithFriends_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1661629809078545, "dur":640, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1661629809079225, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1661629809079262, "dur":3703, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/arnos/Desktop/unityProjects/ShootingThingsWithFriends/ShootingThingsWithFriends_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1661629809083116, "dur":146, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/arnos/Desktop/unityProjects/ShootingThingsWithFriends/ShootingThingsWithFriends_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1661629809083262, "dur":133, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1661629809083434, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1661629809083472, "dur":3699, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/arnos/Desktop/unityProjects/ShootingThingsWithFriends/ShootingThingsWithFriends_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1661629809087337, "dur":175, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/arnos/Desktop/unityProjects/ShootingThingsWithFriends/ShootingThingsWithFriends_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1661629809087512, "dur":290, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1661629809087846, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1661629809087884, "dur":3827, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/arnos/Desktop/unityProjects/ShootingThingsWithFriends/ShootingThingsWithFriends_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1661629809091860, "dur":652, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/arnos/Desktop/unityProjects/ShootingThingsWithFriends/ShootingThingsWithFriends_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1661629809092512, "dur":143, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1661629809092666, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1661629809092700, "dur":3733, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/arnos/Desktop/unityProjects/ShootingThingsWithFriends/ShootingThingsWithFriends_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1661629809096732, "dur":154, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/arnos/Desktop/unityProjects/ShootingThingsWithFriends/ShootingThingsWithFriends_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1661629809096886, "dur":132, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1661629809097032, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1661629809097043, "dur":3605, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/arnos/Desktop/unityProjects/ShootingThingsWithFriends/ShootingThingsWithFriends_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1661629809100794, "dur":548, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/arnos/Desktop/unityProjects/ShootingThingsWithFriends/ShootingThingsWithFriends_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1661629809101343, "dur":615, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1661629809102090, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1661629809102104, "dur":4730, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/arnos/Desktop/unityProjects/ShootingThingsWithFriends/ShootingThingsWithFriends_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1661629809106993, "dur":167, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/arnos/Desktop/unityProjects/ShootingThingsWithFriends/ShootingThingsWithFriends_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1661629809107161, "dur":178, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1661629809107508, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1661629809107545, "dur":3966, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/arnos/Desktop/unityProjects/ShootingThingsWithFriends/ShootingThingsWithFriends_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1661629809111658, "dur":152, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/arnos/Desktop/unityProjects/ShootingThingsWithFriends/ShootingThingsWithFriends_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1661629809111811, "dur":142, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1661629809111996, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1661629809112033, "dur":2785, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/arnos/Desktop/unityProjects/ShootingThingsWithFriends/ShootingThingsWithFriends_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1661629809114963, "dur":134, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/arnos/Desktop/unityProjects/ShootingThingsWithFriends/ShootingThingsWithFriends_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1661629809115097, "dur":216, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1661629809115497, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1661629809115511, "dur":3849, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/arnos/Desktop/unityProjects/ShootingThingsWithFriends/ShootingThingsWithFriends_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1661629809119520, "dur":162, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/arnos/Desktop/unityProjects/ShootingThingsWithFriends/ShootingThingsWithFriends_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":6, "ts":1661629809119683, "dur":141, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1661629809119835, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1661629809119847, "dur":2926, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/arnos/Desktop/unityProjects/ShootingThingsWithFriends/ShootingThingsWithFriends_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":6, "ts":1661629809122941, "dur":431, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/arnos/Desktop/unityProjects/ShootingThingsWithFriends/ShootingThingsWithFriends_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":6, "ts":1661629809123372, "dur":137, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1661629809123551, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1661629809123586, "dur":3433, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/arnos/Desktop/unityProjects/ShootingThingsWithFriends/ShootingThingsWithFriends_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":6, "ts":1661629809127163, "dur":730, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/arnos/Desktop/unityProjects/ShootingThingsWithFriends/ShootingThingsWithFriends_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":6, "ts":1661629809127893, "dur":147, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1661629809128058, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1661629809128075, "dur":3703, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/arnos/Desktop/unityProjects/ShootingThingsWithFriends/ShootingThingsWithFriends_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":6, "ts":1661629809131931, "dur":144, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/arnos/Desktop/unityProjects/ShootingThingsWithFriends/ShootingThingsWithFriends_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":6, "ts":1661629809132076, "dur":133, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1661629809132219, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1661629809132241, "dur":3054, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/arnos/Desktop/unityProjects/ShootingThingsWithFriends/ShootingThingsWithFriends_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":6, "ts":1661629809135447, "dur":163, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/arnos/Desktop/unityProjects/ShootingThingsWithFriends/ShootingThingsWithFriends_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":6, "ts":1661629809135611, "dur":160, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1661629809135812, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1661629809135852, "dur":4174, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/arnos/Desktop/unityProjects/ShootingThingsWithFriends/ShootingThingsWithFriends_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":6, "ts":1661629809140179, "dur":141, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/arnos/Desktop/unityProjects/ShootingThingsWithFriends/ShootingThingsWithFriends_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":6, "ts":1661629809140321, "dur":376, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1661629809140838, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1661629809140876, "dur":2534, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/arnos/Desktop/unityProjects/ShootingThingsWithFriends/ShootingThingsWithFriends_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":6, "ts":1661629809143662, "dur":152, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/arnos/Desktop/unityProjects/ShootingThingsWithFriends/ShootingThingsWithFriends_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":6, "ts":1661629809143814, "dur":180, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1661629809144072, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1661629809144087, "dur":3325, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/arnos/Desktop/unityProjects/ShootingThingsWithFriends/ShootingThingsWithFriends_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":6, "ts":1661629809147559, "dur":138, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/arnos/Desktop/unityProjects/ShootingThingsWithFriends/ShootingThingsWithFriends_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":6, "ts":1661629809147710, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1661629809147720, "dur":9267, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/arnos/Desktop/unityProjects/ShootingThingsWithFriends/ShootingThingsWithFriends_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":6, "ts":1661629809157363, "dur":1991, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1661629809023108, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1661629809023109, "dur":18534, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1661629809041647, "dur":311, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/arnos/Desktop/unityProjects/ShootingThingsWithFriends/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1661629809041959, "dur":201, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1661629809042195, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1661629809047258, "dur":3747, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/arnos/Desktop/unityProjects/ShootingThingsWithFriends/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1661629809051170, "dur":272, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/arnos/Desktop/unityProjects/ShootingThingsWithFriends/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":7, "ts":1661629809051442, "dur":328, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1661629809051815, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1661629809052314, "dur":3181, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/arnos/Desktop/unityProjects/ShootingThingsWithFriends/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":7, "ts":1661629809055648, "dur":279, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/arnos/Desktop/unityProjects/ShootingThingsWithFriends/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":7, "ts":1661629809055928, "dur":131, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1661629809056069, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1661629809056626, "dur":14881, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/arnos/Desktop/unityProjects/ShootingThingsWithFriends/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":7, "ts":1661629809071745, "dur":166, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/arnos/Desktop/unityProjects/ShootingThingsWithFriends/ShootingThingsWithFriends_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1661629809071912, "dur":369, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1661629809072496, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1661629809072534, "dur":9598, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/arnos/Desktop/unityProjects/ShootingThingsWithFriends/ShootingThingsWithFriends_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1661629809082277, "dur":305, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/arnos/Desktop/unityProjects/ShootingThingsWithFriends/ShootingThingsWithFriends_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1661629809082583, "dur":369, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1661629809082994, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1661629809083027, "dur":4461, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/arnos/Desktop/unityProjects/ShootingThingsWithFriends/ShootingThingsWithFriends_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1661629809087638, "dur":159, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/arnos/Desktop/unityProjects/ShootingThingsWithFriends/ShootingThingsWithFriends_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1661629809087798, "dur":132, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1661629809087940, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1661629809087952, "dur":4649, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/arnos/Desktop/unityProjects/ShootingThingsWithFriends/ShootingThingsWithFriends_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1661629809092748, "dur":163, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/arnos/Desktop/unityProjects/ShootingThingsWithFriends/ShootingThingsWithFriends_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1661629809092912, "dur":130, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1661629809093073, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1661629809093088, "dur":3156, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/arnos/Desktop/unityProjects/ShootingThingsWithFriends/ShootingThingsWithFriends_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1661629809096385, "dur":340, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/arnos/Desktop/unityProjects/ShootingThingsWithFriends/ShootingThingsWithFriends_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1661629809096726, "dur":142, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1661629809096889, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1661629809096902, "dur":3738, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/arnos/Desktop/unityProjects/ShootingThingsWithFriends/ShootingThingsWithFriends_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1661629809100788, "dur":237, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/arnos/Desktop/unityProjects/ShootingThingsWithFriends/ShootingThingsWithFriends_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1661629809101025, "dur":209, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1661629809101263, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1661629809101279, "dur":4444, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/arnos/Desktop/unityProjects/ShootingThingsWithFriends/ShootingThingsWithFriends_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1661629809105896, "dur":164, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/arnos/Desktop/unityProjects/ShootingThingsWithFriends/ShootingThingsWithFriends_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1661629809106060, "dur":134, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1661629809106237, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1661629809106264, "dur":3466, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/arnos/Desktop/unityProjects/ShootingThingsWithFriends/ShootingThingsWithFriends_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1661629809109898, "dur":151, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/arnos/Desktop/unityProjects/ShootingThingsWithFriends/ShootingThingsWithFriends_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1661629809110050, "dur":132, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1661629809110192, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1661629809110204, "dur":3131, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/arnos/Desktop/unityProjects/ShootingThingsWithFriends/ShootingThingsWithFriends_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1661629809113484, "dur":145, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/arnos/Desktop/unityProjects/ShootingThingsWithFriends/ShootingThingsWithFriends_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1661629809113630, "dur":396, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1661629809114036, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1661629809114048, "dur":4263, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/arnos/Desktop/unityProjects/ShootingThingsWithFriends/ShootingThingsWithFriends_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1661629809118502, "dur":4667, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/arnos/Desktop/unityProjects/ShootingThingsWithFriends/ShootingThingsWithFriends_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":7, "ts":1661629809123169, "dur":135, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1661629809123314, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1661629809123363, "dur":4069, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/arnos/Desktop/unityProjects/ShootingThingsWithFriends/ShootingThingsWithFriends_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":7, "ts":1661629809127582, "dur":455, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/arnos/Desktop/unityProjects/ShootingThingsWithFriends/ShootingThingsWithFriends_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":7, "ts":1661629809128037, "dur":136, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1661629809128226, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1661629809128240, "dur":3630, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/arnos/Desktop/unityProjects/ShootingThingsWithFriends/ShootingThingsWithFriends_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":7, "ts":1661629809132008, "dur":161, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/arnos/Desktop/unityProjects/ShootingThingsWithFriends/ShootingThingsWithFriends_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":7, "ts":1661629809132169, "dur":147, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1661629809132354, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1661629809132390, "dur":6056, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/arnos/Desktop/unityProjects/ShootingThingsWithFriends/ShootingThingsWithFriends_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":7, "ts":1661629809138601, "dur":158, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/arnos/Desktop/unityProjects/ShootingThingsWithFriends/ShootingThingsWithFriends_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":7, "ts":1661629809138759, "dur":276, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1661629809139087, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1661629809139123, "dur":4280, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/arnos/Desktop/unityProjects/ShootingThingsWithFriends/ShootingThingsWithFriends_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":7, "ts":1661629809143544, "dur":146, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/arnos/Desktop/unityProjects/ShootingThingsWithFriends/ShootingThingsWithFriends_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":7, "ts":1661629809143691, "dur":771, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1661629809144499, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1661629809144533, "dur":11401, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/arnos/Desktop/unityProjects/ShootingThingsWithFriends/ShootingThingsWithFriends_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":7, "ts":1661629809156088, "dur":453, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/arnos/Desktop/unityProjects/ShootingThingsWithFriends/ShootingThingsWithFriends_Data/boot.config" }}
+,{ "pid":12345, "tid":7, "ts":1661629809156541, "dur":553, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1661629809157131, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1661629809157162, "dur":2050, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/arnos/Desktop/unityProjects/ShootingThingsWithFriends/ShootingThingsWithFriends_Data/boot.config" }}
+,{ "pid":12345, "tid":7, "ts":1661629809159324, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":7, "ts":1661629809159326, "dur":0, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1661629809023180, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1661629809023181, "dur":18448, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1661629809041646, "dur":317, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/arnos/Desktop/unityProjects/ShootingThingsWithFriends/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1661629809041963, "dur":278, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1661629809042277, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1661629809049220, "dur":2397, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/arnos/Desktop/unityProjects/ShootingThingsWithFriends/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1661629809051774, "dur":184, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/arnos/Desktop/unityProjects/ShootingThingsWithFriends/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":8, "ts":1661629809051958, "dur":156, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1661629809052150, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1661629809052354, "dur":3298, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/arnos/Desktop/unityProjects/ShootingThingsWithFriends/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":8, "ts":1661629809055824, "dur":166, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/arnos/Desktop/unityProjects/ShootingThingsWithFriends/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":8, "ts":1661629809055991, "dur":131, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1661629809056135, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1661629809056146, "dur":60600, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/arnos/Desktop/unityProjects/ShootingThingsWithFriends/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":8, "ts":1661629809117495, "dur":2443, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/arnos/Desktop/unityProjects/ShootingThingsWithFriends/ShootingThingsWithFriends_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":8, "ts":1661629809119939, "dur":382, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1661629809120331, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1661629809120343, "dur":5046, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/arnos/Desktop/unityProjects/ShootingThingsWithFriends/ShootingThingsWithFriends_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":8, "ts":1661629809125541, "dur":520, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/arnos/Desktop/unityProjects/ShootingThingsWithFriends/ShootingThingsWithFriends_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":8, "ts":1661629809126061, "dur":526, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1661629809126645, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1661629809126683, "dur":3300, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/arnos/Desktop/unityProjects/ShootingThingsWithFriends/ShootingThingsWithFriends_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":8, "ts":1661629809130131, "dur":148, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/arnos/Desktop/unityProjects/ShootingThingsWithFriends/ShootingThingsWithFriends_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":8, "ts":1661629809130279, "dur":128, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1661629809130444, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1661629809130479, "dur":8047, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/arnos/Desktop/unityProjects/ShootingThingsWithFriends/ShootingThingsWithFriends_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":8, "ts":1661629809138672, "dur":172, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/arnos/Desktop/unityProjects/ShootingThingsWithFriends/ShootingThingsWithFriends_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":8, "ts":1661629809138844, "dur":439, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1661629809139294, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1661629809139305, "dur":6305, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/arnos/Desktop/unityProjects/ShootingThingsWithFriends/ShootingThingsWithFriends_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":8, "ts":1661629809145758, "dur":621, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/arnos/Desktop/unityProjects/ShootingThingsWithFriends/ShootingThingsWithFriends_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":8, "ts":1661629809146379, "dur":145, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1661629809146536, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1661629809147488, "dur":4072, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/arnos/Desktop/unityProjects/ShootingThingsWithFriends/ShootingThingsWithFriends_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":8, "ts":1661629809151716, "dur":159, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/arnos/Desktop/unityProjects/ShootingThingsWithFriends/ShootingThingsWithFriends_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1661629809151898, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1661629809151909, "dur":5315, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/arnos/Desktop/unityProjects/ShootingThingsWithFriends/ShootingThingsWithFriends_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1661629809157374, "dur":1982, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1661629809167789, "dur":3464, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1661629809195005, "dur": 1905, "ph": "X", "name": "backend_profiler0.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1661629809194789, "dur": 2163, "ph": "X", "name": "Write chrome-trace events", "args": {} },
